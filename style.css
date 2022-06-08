@@ -296,5 +296,63 @@ section{
     padding: 6px 0px;
     justify-content: space-between;
     align-items: center;
+}
 
+
+@media screen and (max-width:640px){
+    section{
+        padding-inline: 10px ;
+    }
+    .hero-bg{
+        margin-top: 0px;
+    }
+    .footer-img{
+        padding-inline:  10px;
+        margin-top: 75px;
+    }
+    .foot-para{
+        font-size: 14px;
+    }
+    .navbar-brand  img{
+        height: 36px;
+
+    }
+    .header{
+        row-gap: 15px;
+        margin-top: 80px;
+    }
+    .main_heading {
+        font-size: 40px;
+        line-height: 49px;
+    }
+    .main_para, .main_para, .second-para, .third-para, .third-para1 {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .sec-two, .sec-three {
+        margin-top: 80px;
+    }
+    .heading-secondary {
+        
+        font-size: 32px;
+        line-height: 44px;
+    }
+    .boxes {
+       
+        justify-content: center;
+       
+        gap: 25px;
+    }
+    .skill-item {
+        
+        font-size: 16px;
+       
+    }
+    .skillset {
+        gap: 15px;
+  
+    }
+    .skill-item1 img{
+        height: 36px;
+    }
 }
